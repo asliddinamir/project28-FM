@@ -96,8 +96,10 @@ body {
 .second_row .second_column {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: start;
     background-color: #fff;
-    padding: 9rem 10rem;
+    padding-inline: 9rem;
     text-align: left;
 }
 
@@ -207,18 +209,20 @@ body {
 .testimonials {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     gap: 4.5rem;
     height: 100vh;
     text-align: center;
     background-color: #fffbf8;
-    padding: 9rem;
+    padding-inline: 7rem;
 }
 
 .testim_title {
     font-family: var(--ff-fraunces);
     color: hsl(210, 4%, 67%);
     letter-spacing: 5px;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .testim_container {
