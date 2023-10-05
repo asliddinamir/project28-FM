@@ -203,3 +203,68 @@ body {
     margin: 0 auto;
     padding: 0 11rem;
 }
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    gap: 4.5rem;
+    height: 100vh;
+    text-align: center;
+    background-color: #fffbf8;
+    padding: 9rem;
+}
+
+.testim_title {
+    font-family: var(--ff-fraunces);
+    color: hsl(210, 4%, 67%);
+    letter-spacing: 5px;
+    font-size: 1.5rem;
+}
+
+.testim_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    gap: 3.1rem;
+    align-items: center;
+}
+
+.testimonial img {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+}
+
+.testimonial p {
+    font-family: var(--ff-barlow);
+    color: hsl(232, 10%, 55%);
+    line-height: 1.8rem;
+    font-weight: 600;
+}
+
+.testim_footer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    padding-top: 0.7rem;
+    text-align: center;
+    align-items: center;
+}
+
+.testim_footer h4 {
+    font-family: var(--ff-fraunces);
+    font-size: 1.1rem;
+    font-weight: 900;
+}
+
+.testim_footer span {
+    font-family: var(--ff-barlow);
+    font-size: .9rem;
+    color: hsl(210, 4%, 67%)
+}
