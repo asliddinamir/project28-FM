@@ -272,3 +272,35 @@ body {
     font-size: .9rem;
     color: hsl(210, 4%, 67%)
 }
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    height: 25rem;
+    gap: 0;
+}
+
+.milk {
+    background: url('./images/desktop/image-gallery-milkbottles.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+}
+
+.orange {
+    background: url('./images/desktop/image-gallery-orange.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+}
+
+.ice_cream {
+    background: url('./images/desktop/image-gallery-cone.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+}
+
+.sugar {
+    background: url('./images/desktop/image-gallery-sugarcubes.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+}
