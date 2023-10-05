@@ -210,7 +210,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 4.5rem;
-    height: 100vh;
+    min-height: 100vh;
     text-align: center;
     background-color: #fffbf8;
 }
@@ -356,7 +356,7 @@ footer h3 a {
     }
 }
 
-@media(min-width:830px) {
+@media(min-width:761px) {
     .gallery {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -376,4 +376,32 @@ footer h3 a {
     .testimonials {
         padding-inline: 2rem;
     }
+}
+
+@media(max-width:760px) {
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        width: 100%;
+        height: 50rem;
+    }
+
+    .innerpart {
+        padding: 0 4rem;
+    }
+
+    .testimonials {
+        padding: 2rem 1.5rem;
+        /* min-height: 100vh; */
+    }
+
+    .testim_container {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .testimonial {
+        gap: 1rem;
+    }
+
 }
