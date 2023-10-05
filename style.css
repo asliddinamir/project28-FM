@@ -157,9 +157,7 @@ body {
 
 .first_row .first_column span:hover::after,
 .second_row .second_column span:hover::after {
-    content: '';
-    height: 0;
-    width: 0;
+    opacity: 1;
 }
 
 
