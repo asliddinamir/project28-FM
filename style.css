@@ -121,6 +121,7 @@ body {
 
 .learn {
     padding-block: 20px;
+    text-align: left;
 }
 
 .first_row .first_column span,
@@ -392,7 +393,6 @@ footer h3 a {
 
     .testimonials {
         padding: 2rem 1.5rem;
-        /* min-height: 100vh; */
     }
 
     .testim_container {
@@ -404,4 +404,51 @@ footer h3 a {
         gap: 1rem;
     }
 
+    .second_row {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .first_row {
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 100%;
+    }
+
+    .first_row .second_column,
+    .second_row .first_column {
+        width: 100%;
+        height: 350px;
+    }
+
+    .first_row .first_column,
+    .second_row .second_column {
+        text-align: center;
+        align-items: center;
+        padding: 1rem;
+        width: 100%;
+        height: auto;
+    }
+
+    .third_row {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+
+    .third_row .first_column,
+    .third_row .second_column {
+        width: 100%;
+        height: 500px;
+    }
+
+}
+
+@media(max-width:400px) {
+    .innerpart {
+        bottom: 1rem;
+        padding: 0 1rem;
+    }
 }
