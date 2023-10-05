@@ -75,11 +75,10 @@ nav a:not(.contact, footer nav a) {
 }
 
 .hero {
-    /* background: url('./images/desktop/image-header.jpg') no-repeat bottom center/cover; */
+    background: url('./images/desktop/image-header.jpg') no-repeat bottom center/cover;
     height: 90vh;
     text-align: center;
     font-size: 37px;
-    background-color: yellow;
 }
 
 .hero_title {
@@ -400,11 +399,10 @@ footer h3 a {
 
 @media(max-width:760px) {
     .hero {
-        /* background: url('./images/mobile/image-header.jpg') no-repeat center center/cover; */
+        background: url('./images/mobile/image-header.jpg') no-repeat center center/cover;
         max-height: 80vh;
         text-align: center;
         position: relative;
-        background-color: yellow;
     }
 
     .popup {
