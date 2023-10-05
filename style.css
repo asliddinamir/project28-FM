@@ -62,6 +62,10 @@ nav a:not(.contact, footer nav a) {
     background-color: #77d2ff;
 }
 
+.menu {
+    display: none;
+}
+
 .hero {
     background: url('./images/desktop/image-header.jpg') no-repeat bottom center/cover;
     height: 90vh;
@@ -386,6 +390,26 @@ footer h3 a {
 }
 
 @media(max-width:760px) {
+    .hero {
+        background: url('./images/mobile/image-header.jpg') no-repeat center center/cover;
+        height: 80vh;
+        text-align: center;
+    }
+
+    .menu {
+        display: block;
+        padding: .5rem;
+        cursor: pointer;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .hero_title {
+        font-size: 40px;
+    }
+
     .gallery {
         display: grid;
         grid-template-columns: repeat(2, 2fr);
@@ -453,6 +477,15 @@ footer h3 a {
 }
 
 @media(max-width:406px) {
+    .hero {
+        height: 70vh;
+    }
+
+    .hero_title {
+        font-size: 35px;
+        padding: 5rem 1rem 3rem 1rem;
+    }
+
     .gallery {
         display: grid;
         grid-template-columns: 4fr;
