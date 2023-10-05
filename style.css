@@ -170,3 +170,38 @@ body {
 .second_row .first_column {
     background: url('./images/desktop/image-stand-out.jpg') no-repeat center center/cover;
 }
+
+.third_row {
+    display: flex;
+    text-align: center;
+}
+
+.third_row .first_column {
+    background: url('./images/desktop/image-graphic-design.jpg') no-repeat center center/cover;
+    color: hsl(167, 40%, 24%);
+    position: relative;
+}
+
+.third_row .second_column {
+    background: url('./images/desktop/image-photography.jpg') no-repeat center center/cover;
+    color: hsl(198, 62%, 26%);
+    position: relative;
+}
+
+.third_row h3 {
+    font-family: var(--ff-fraunces);
+    font-size: 27px;
+    margin-bottom: 2rem;
+}
+
+.third_row span {
+    font-size: 16px;
+    line-height: 1.4rem;
+}
+
+.innerpart {
+    position: absolute;
+    bottom: 3rem;
+    margin: 0 auto;
+    padding: 0 11rem;
+}
