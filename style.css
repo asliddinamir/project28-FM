@@ -99,7 +99,6 @@ body {
     justify-content: center;
     align-items: start;
     background-color: #fff;
-    padding-inline: 9rem;
     text-align: left;
 }
 
@@ -203,7 +202,6 @@ body {
     position: absolute;
     bottom: 3rem;
     margin: 0 auto;
-    padding: 0 11rem;
 }
 
 .testimonials {
@@ -215,7 +213,6 @@ body {
     height: 100vh;
     text-align: center;
     background-color: #fffbf8;
-    padding-inline: 7rem;
 }
 
 .testim_title {
@@ -273,13 +270,6 @@ body {
     color: hsl(210, 4%, 67%)
 }
 
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    width: 100%;
-    height: 25rem;
-    gap: 0;
-}
 
 .milk {
     background: url('./images/desktop/image-gallery-milkbottles.jpg') no-repeat center center/cover;
@@ -349,4 +339,41 @@ footer h3 {
 
 footer h3 a {
     color: red;
+}
+
+@media(min-width:1100px) {
+    .innerpart {
+        padding: 0 11rem;
+    }
+
+    .first_row .first_column,
+    .second_row .second_column {
+        padding-inline: 9rem;
+    }
+
+    .testimonials {
+        padding-inline: 7rem;
+    }
+}
+
+@media(min-width:830px) {
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        width: 100%;
+        height: 25rem;
+    }
+
+    .innerpart {
+        padding: 0 4rem;
+    }
+
+    .first_row .first_column,
+    .second_row .second_column {
+        padding-inline: 5rem;
+    }
+
+    .testimonials {
+        padding-inline: 2rem;
+    }
 }
